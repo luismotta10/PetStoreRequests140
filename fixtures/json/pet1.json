@@ -1,0 +1,18 @@
+{
+    "id": 702190001,
+    "category": {
+      "id": 1,
+      "name": "dog"
+    },
+    "name": "Lupin",
+    "photoUrls": [
+      ""
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "vacinado"
+      }
+    ],
+    "status": "available"
+  }
