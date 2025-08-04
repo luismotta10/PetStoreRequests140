@@ -12,7 +12,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # consulta e resultado esperado
 pet_id = 702190001          # código do animal
 pet_name = "Lupin"          # nome do animal
-pet_category_id = 1            # código do animal
+pet_category_id = 1         # código do animal
 pet_category_name = "dog"   # titulo da categoria
 pet_tag_id = 1              # código do rótulo
 pet_tag_name = "vacinado"   # titulo do rótulo
@@ -28,7 +28,7 @@ def test_post_pet():
     # dados de entrada estão no arquivo json
     pet=open('./fixtures/json/pet1.json')             # abre o arquivo json
     data=json.loads(pet.read())                       # ler o conteudo e carrega como json em uma variável data
-    # dados de saída / resultado esperado estão nos atibutos acima das funções
+    # dados de saída / resultado esperado estão nos atributos acima das funções
 
     # executa
     response = requests.post(
