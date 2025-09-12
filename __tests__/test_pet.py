@@ -121,5 +121,5 @@ def test_delete_pet():
     assert response.status_code == 200
     assert response_body['code'] == 200
     assert response_body['type'] == 'unknown'
-    assert response_body['message'] == str(pet_id)
+    assert response_body['message'] == str(pet_id)  # str é necessário pq nesse em específico foi utilizado uma string
 
